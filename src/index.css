@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  height: 100%;
+  background: rgb(7, 7, 7);
+  background: linear-gradient(
+    118deg,
+    rgba(7, 7, 7, 1) 21%,
+    rgba(125, 185, 255, 1) 39%,
+    rgba(69, 150, 244, 1) 56%,
+    rgba(18, 127, 254, 1) 73%
+  );
+}
+
+body {
+  margin: 0;
+}
+
+.goal-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.goal-item {
+  margin: 1rem 0;
+  background: black;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  color: white;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  box-shadow: 7px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.form-control {
+  margin: 0.5rem 0;
+}
+
+.form-control label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.form-control input {
+  display: block;
+  width: 100%;
+  border: 1px solid #ccc;
+  font: inherit;
+  line-height: 1.5rem;
+  padding: 0 0.25rem;
+}
+
+.form-control input:focus {
+  outline: none;
+  background: #fad0ec;
+  border-color: #8b005d;
+}
+
+/*  BUTTON */
+.button {
+  font: inherit;
+  padding: 0.5rem 1.5rem;
+
+  color: white;
+  background: black;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.26);
+  cursor: pointer;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:hover,
+.button:active {
+  background: #ac8627;
+  border-color: #ac8627;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.26);
+}
+
+/* Div center */
+.main-div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
